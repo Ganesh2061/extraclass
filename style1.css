@@ -1,0 +1,93 @@
+/*universal selector*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Type Selector*/
+body {
+    background-color: rgb(81, 128, 170);
+}
+
+/* ID Selector*/
+#container {
+    width: 1356px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 0px 50px 0px 50px;
+    margin: auto auto;
+}
+
+.row {
+    min-height: 10px;
+}
+
+#topnav {
+    width: 100%;
+    background-color: rgb(162, 0, 255);
+    opacity: 0.6;
+    min-height: 50px;
+}
+
+#topnav ol {
+    list-style-type: none;
+}
+
+#topnav ol li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.col100 {
+    width: 100%;
+}
+
+.col75 {
+    width: 75%;
+    float: left;
+}
+
+.col50 {
+    width: 50%;
+    float: left;
+}
+
+.col25 {
+    width: 25%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+.banner{
+    background-image: url("../../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:1368px;
+    height: 150px;
+}
+#social{
+    width: 50px;
+    min-height: 150px;
+    position:fixed;
+    /*z- indexed for layering*/
+    z-index: 9999;
+    background-color: red;
+    right:0px;
+    top: 250px;
+}
+
+#social ul{
+    list-style-type: none;
+}
+
+#social ul li{
+    display: list-item;
+    font-size: 3em;
+    color: azure;
+    font-weight: bold;
+}
+#social ul li:hover{
+    color:blue;
+}
